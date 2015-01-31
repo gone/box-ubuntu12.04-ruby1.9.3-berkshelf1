@@ -5,8 +5,8 @@ type : main
 platform : ubuntu@12.04
 packages :
   - ruby@1.9.3
-  - berkshelf@1.1.6
+  - berkshelf@3.1.5
 script : |
   sudo apt-get update
   sudo apt-get install ruby1.9.3 curl git build-essential
-  sudo gem install berkshelf -v '1.1.6' --no-rdoc --no-ri
+  sudo gem install berkshelf -v '3.1.5' --no-rdoc --no-ri
