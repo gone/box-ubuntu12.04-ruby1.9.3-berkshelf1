@@ -1,0 +1,8 @@
+box : wercker/default
+build :
+  steps :
+    - script:
+        name : run provision
+        code : |
+          cd $WERCKER_ROOT
+          source provision.sh
